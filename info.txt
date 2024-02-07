@@ -1,2 +1,8 @@
-api key:
-b3953b26f69fadd91ece3e4ff4504503
+path data:
+/home/hadoop/Desktop/ECBD/data/off_raw/en.openfoodfacts.org.products.csv
+
+
+hadoop fs -put /home/hadoop/Desktop/ECBD/data/off_raw/en.openfoodfacts.org.products.csv /user/hadoop/off_row
+
+
+hadoop fs -cat /user/hadoop/categories/chocolates_1707336841/part-00006-ee6e1655-dc12-4c30-838e-ab8be5aed044-c000.csv | head -n 30 > /home/hadoop/Desktop/30_rows_chocolates.csv

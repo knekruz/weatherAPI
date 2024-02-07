@@ -1,0 +1,114 @@
+{
+    "count": 10995,
+    "page": 1,
+    "page_count": 24,
+    "page_size": 24,
+    "products": [
+      {
+        "brands_tags": [
+          "milka",
+          "mondelez"
+        ],
+        "carbohydrates_100g": 57,
+        "categories": "Snacks, Zoete snacks, Cacao en afgeleide producten, Chocoladeproducten, Melkchocoladen, en:Milk chocolate bar",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:milk-chocolates",
+          "en:milk-chocolate-bar",
+          "en:cacao-en-afgeleide-producten",
+          "en:chocoladeproducten",
+          "en:melkchocoladen",
+          "en:zoete-snacks"
+        ],
+        "code": "3045140105502",
+        "countries": "Austria,República Checa,Francia,Alemania,Hungría,España",
+        "countries_tags": [
+          "en:austria",
+          "en:czech-republic",
+          "en:france",
+          "en:germany",
+          "en:hungary",
+          "en:spain"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "ecoscore_score": 25,
+        "energy-kcal_100g": 539,
+        "fat_100g": 31,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Cocoa Life, Nutriscore, Nutriscore E, Triman",
+        "labels_tags": [
+          "en:cocoa-life",
+          "en:nutriscore",
+          "en:nutriscore-grade-e",
+          "fr:triman"
+        ],
+        "last_modified_by": "prepperapp",
+        "last_modified_t": 1706971733,
+        "last_updated_t": 1706971733,
+        "nutrition-score-fr_100g": 25,
+        "origins": "No especificado",
+        "origins_tags": [
+          "en:unspecified"
+        ],
+        "proteins_100g": 6.5,
+        "quantity": "100g",
+        "saturated-fat_100g": 19,
+        "sugars_100g": 55,
+        "unique_scans_n": 501
+      },
+      {
+        "brands_tags": [
+          "ferrero"
+        ],
+        "carbohydrates_100g": 52.8,
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Confectioneries, Chocolate candies, Bonbons, Liqueur bonbons, Liquor filled chocolate covered cherries, en:chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:confectioneries",
+          "en:chocolate-candies",
+          "en:bonbons",
+          "en:chocolates",
+          "en:liqueur-bonbons",
+          "en:liquor-filled-chocolate-covered-cherries"
+        ],
+        "code": "4008400115535",
+        "countries": "France,Germany",
+        "countries_tags": [
+          "en:france",
+          "en:germany"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 455,
+        "fat_100g": 20.3,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "",
+        "labels_tags": [],
+        "last_modified_by": "inf",
+        "last_modified_t": 1706341795,
+        "last_updated_t": 1706341795,
+        "nutrition-score-fr_100g": 25,
+        "origins": "",
+        "origins_tags": [],
+        "product_name": "Mon Cherie",
+        "proteins_100g": 3,
+        "quantity": "189g",
+        "saturated-fat_100g": 13.2,
+        "sugars_100g": 48.3,
+        "unique_scans_n": 12
+      }
+    ],
+    "skip": 0
+  }
