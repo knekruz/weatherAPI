@@ -1,0 +1,884 @@
+{
+    "count": 10995,
+    "page": 1,
+    "page_count": 24,
+    "page_size": 24,
+    "products": [
+      {
+        "brands_tags": [
+          "milka",
+          "mondelez"
+        ],
+        "carbohydrates_100g": 57,
+        "categories": "Snacks, Zoete snacks, Cacao en afgeleide producten, Chocoladeproducten, Melkchocoladen, en:Milk chocolate bar",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:milk-chocolates",
+          "en:milk-chocolate-bar",
+          "en:cacao-en-afgeleide-producten",
+          "en:chocoladeproducten",
+          "en:melkchocoladen",
+          "en:zoete-snacks"
+        ],
+        "code": "3045140105502",
+        "countries": "Austria,República Checa,Francia,Alemania,Hungría,España",
+        "countries_tags": [
+          "en:austria",
+          "en:czech-republic",
+          "en:france",
+          "en:germany",
+          "en:hungary",
+          "en:spain"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "ecoscore_score": 25,
+        "energy-kcal_100g": 539,
+        "fat_100g": 31,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Cocoa Life, Nutriscore, Nutriscore E, Triman",
+        "labels_tags": [
+          "en:cocoa-life",
+          "en:nutriscore",
+          "en:nutriscore-grade-e",
+          "fr:triman"
+        ],
+        "last_modified_by": "prepperapp",
+        "last_modified_t": 1706971733,
+        "last_updated_t": 1706971733,
+        "nutrition-score-fr_100g": 25,
+        "proteins_100g": 6.5,
+        "quantity": "100g",
+        "saturated-fat_100g": 19,
+        "sugars_100g": 55,
+        "unique_scans_n": 501
+      },
+      {
+        "brands_tags": [
+          "ferrero"
+        ],
+        "carbohydrates_100g": 52.8,
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Confectioneries, Chocolate candies, Bonbons, Liqueur bonbons, Liquor filled chocolate covered cherries, en:chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:confectioneries",
+          "en:chocolate-candies",
+          "en:bonbons",
+          "en:chocolates",
+          "en:liqueur-bonbons",
+          "en:liquor-filled-chocolate-covered-cherries"
+        ],
+        "code": "4008400115535",
+        "countries": "France,Germany",
+        "countries_tags": [
+          "en:france",
+          "en:germany"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 455,
+        "fat_100g": 20.3,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "",
+        "labels_tags": [],
+        "last_modified_by": "inf",
+        "last_modified_t": 1706341795,
+        "last_updated_t": 1706341795,
+        "nutrition-score-fr_100g": 25,
+        "product_name": "Mon Cherie",
+        "proteins_100g": 3,
+        "quantity": "189g",
+        "saturated-fat_100g": 13.2,
+        "sugars_100g": 48.3,
+        "unique_scans_n": 12
+      },
+      {
+        "brands_tags": [
+          "le-comptoir-de-mathilde"
+        ],
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats, Chocolats noirs, Chocolat noir en tablette aux fruits secs",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates",
+          "en:dark-chocolate-bar-with-dried-fruits"
+        ],
+        "code": "3760170094991",
+        "countries": "en:France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "smoothie-app",
+        "ecoscore_score": 15,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "segundo",
+        "last_modified_t": 1696417183,
+        "last_updated_t": 1705649106,
+        "quantity": "250 g",
+        "unique_scans_n": 2
+      },
+      {
+        "brands_tags": [
+          "m-m-s"
+        ],
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "04000047367",
+        "countries": "France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "minhloc",
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "",
+        "labels_tags": [],
+        "last_modified_by": "fix-serving-size-bot",
+        "last_modified_t": 1684235025,
+        "last_updated_t": 1684235025,
+        "quantity": "42,5 g"
+      },
+      {
+        "brands_tags": [
+          "kinder"
+        ],
+        "carbohydrates_100g": 53.5,
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "4008400202525",
+        "countries": "France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 566,
+        "fat_100g": 35,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "",
+        "labels_tags": [],
+        "last_modified_by": "inf",
+        "last_modified_t": 1705319835,
+        "last_updated_t": 1705619375,
+        "nutrition-score-fr_100g": 28,
+        "product_name": "Kinder",
+        "proteins_100g": 8.7,
+        "quantity": "50 g",
+        "saturated-fat_100g": 22.6,
+        "sugars_100g": 53.3,
+        "unique_scans_n": 2
+      },
+      {
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "5907471403505",
+        "countries": "en:france",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "foodless",
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "quentinbrd",
+        "last_modified_t": 1686453783,
+        "last_updated_t": 1705648708,
+        "unique_scans_n": 1
+      },
+      {
+        "carbohydrates_100g": 25,
+        "categories": "Botanas, Snacks dulces, Cacao y sus productos, Chocolates, Chocolates negros",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates"
+        ],
+        "code": "7702088012021",
+        "countries": "France, Spain, Germany",
+        "countries_tags": [
+          "en:france",
+          "en:germany",
+          "en:spain"
+        ],
+        "creator": "kiliweb",
+        "ecoscore_score": 15,
+        "energy-kcal_100g": 630,
+        "fat_100g": 53,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "prepperapp",
+        "last_modified_t": 1706458966,
+        "last_updated_t": 1706458966,
+        "nutrition-score-fr_100g": 17,
+        "product_name": "Chocolat Luker Tradicional",
+        "proteins_100g": 12,
+        "saturated-fat_100g": 32,
+        "sugars_100g": 0,
+        "unique_scans_n": 4
+      },
+      {
+        "brands_tags": [
+          "de-ruijter"
+        ],
+        "carbohydrates_100g": 67,
+        "categories": "Bread coverings, Cooking helpers, Food decorations, Pastry helpers, Sprinkles, Chocolate sprinkles, en:chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:bread-coverings",
+          "en:chocolates",
+          "en:cooking-helpers",
+          "en:food-decorations",
+          "en:pastry-helpers",
+          "en:sprinkles",
+          "en:chocolate-sprinkles"
+        ],
+        "code": "8715700124209",
+        "countries": "Frankreich, Niederlande, Germany",
+        "countries_tags": [
+          "en:france",
+          "en:germany",
+          "en:netherlands"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 428,
+        "fat_100g": 15,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "en:rainforest-alliance",
+        "labels_tags": [
+          "en:rainforest-alliance"
+        ],
+        "last_modified_by": "nnb",
+        "last_modified_t": 1706897958,
+        "last_updated_t": 1706897958,
+        "nutrition-score-fr_100g": 23,
+        "proteins_100g": 5,
+        "saturated-fat_100g": 8.8,
+        "sugars_100g": 64,
+        "unique_scans_n": 5
+      },
+      {
+        "carbohydrates_100g": 42,
+        "categories": "en:chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "5400265042725",
+        "countries": "en:france",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 610,
+        "fat_100g": 47,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "en:made-in-belgium",
+        "labels_tags": [
+          "en:made-in-belgium"
+        ],
+        "last_modified_by": "kiliweb",
+        "last_modified_t": 1700403492,
+        "last_updated_t": 1705650857,
+        "nutrition-score-fr_100g": 35,
+        "proteins_100g": 3.5,
+        "quantity": "200 g",
+        "saturated-fat_100g": 38,
+        "sugars_100g": 40,
+        "unique_scans_n": 1
+      },
+      {
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats, Chocolats noirs, Chocolat noir en tablette extra dégustation à 70% de cacao minimum",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates",
+          "en:dark-chocolate-bar-with-more-than-70-cocoa"
+        ],
+        "code": "0408930624462",
+        "countries": "en:France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "smoothie-app",
+        "ecoscore_score": 35,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Commerce équitable, Bio, Bio européen, Fairtrade International, AB Agriculture Biologique",
+        "labels_tags": [
+          "en:fair-trade",
+          "en:organic",
+          "en:eu-organic",
+          "en:fairtrade-international",
+          "fr:ab-agriculture-biologique"
+        ],
+        "last_modified_by": "spotter",
+        "last_modified_t": 1699261237,
+        "last_updated_t": 1705650859
+      },
+      {
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Chocolates, Dark chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates"
+        ],
+        "code": "5600449912015",
+        "countries": "en:france",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "kiliweb",
+        "ecoscore_score": 25,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Vegetarian, Sustainable farming, Vegan, Green Dot, UTZ Certified, UTZ Certified Cocoa",
+        "labels_tags": [
+          "en:vegetarian",
+          "en:sustainable-farming",
+          "en:vegan",
+          "en:green-dot",
+          "en:utz-certified",
+          "en:utz-certified-cocoa"
+        ],
+        "last_modified_by": "hungergames",
+        "last_modified_t": 1681452164,
+        "last_updated_t": 1681452164,
+        "quantity": "100 g"
+      },
+      {
+        "brands_tags": [
+          "callebaut"
+        ],
+        "carbohydrates_100g": 55,
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "5410522556704",
+        "countries": "France, en:it",
+        "countries_tags": [
+          "en:france",
+          "en:italy"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 569,
+        "fat_100g": 38.8,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "inf",
+        "last_modified_t": 1703747618,
+        "last_updated_t": 1703747618,
+        "nutrition-score-fr_100g": 27,
+        "product_name": "Finest belgian chocolate",
+        "proteins_100g": 6,
+        "quantity": "400 g",
+        "saturated-fat_100g": 22,
+        "sugars_100g": 55
+      },
+      {
+        "brands_tags": [
+          "majani"
+        ],
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "8003288289602",
+        "countries": "en:France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "telperion87",
+        "last_modified_t": 1673010999,
+        "last_updated_t": 1705640430
+      },
+      {
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "3663350191308",
+        "countries": "en:france",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "smoothie-app",
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "smoothie-app",
+        "last_modified_t": 1688710492,
+        "last_updated_t": 1705649102,
+        "unique_scans_n": 1
+      },
+      {
+        "brands_tags": [
+          "cote-d-or"
+        ],
+        "carbohydrates_100g": 32,
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "03812167",
+        "countries": "France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "energy-kcal_100g": 600,
+        "fat_100g": 47,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Cocos life",
+        "labels_tags": [
+          "fr:cocos-life"
+        ],
+        "last_modified_by": "packbot",
+        "last_modified_t": 1644543363,
+        "last_updated_t": 1644543363,
+        "nutrition-score-fr_100g": 18,
+        "proteins_100g": 7,
+        "quantity": "130g",
+        "saturated-fat_100g": 29,
+        "sugars_100g": 28
+      },
+      {
+        "carbohydrates_100g": 63,
+        "categories": "Chocolats au caramel",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:caramel-chocolates"
+        ],
+        "code": "0752544062159",
+        "countries": "en:France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "smoothie-app",
+        "energy-kcal_100g": 473,
+        "fat_100g": 21,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Pure cocoa butter, en:green-dot",
+        "labels_tags": [
+          "en:green-dot",
+          "en:pure-cocoa-butter"
+        ],
+        "last_modified_by": "jim",
+        "last_modified_t": 1706582309,
+        "last_updated_t": 1706582309,
+        "nutrition-score-fr_100g": 25,
+        "proteins_100g": 2.8,
+        "quantity": "120 g",
+        "saturated-fat_100g": 13,
+        "sugars_100g": 50
+      },
+      {
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "4932406306010",
+        "countries": "en:France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "smoothie-app",
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "quentinbrd",
+        "last_modified_t": 1693208527,
+        "last_updated_t": 1705649702,
+        "unique_scans_n": 1
+      },
+      {
+        "brands_tags": [
+          "les-creations"
+        ],
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Chocolates, Dark chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates"
+        ],
+        "code": "18428650",
+        "countries": "en:France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "ecoscore_score": 15,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "last_modified_by": "chevalstar",
+        "last_modified_t": 1692879540,
+        "last_updated_t": 1692879540,
+        "unique_scans_n": 1
+      },
+      {
+        "brands_tags": [],
+        "carbohydrates_100g": 31,
+        "categories": "Snacks, Søde snacks, en:Cocoa and its products, Chokolader, Mørke chokolader",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates"
+        ],
+        "code": "5701049165433",
+        "countries": "France",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "smoothie-app",
+        "ecoscore_score": 26,
+        "energy-kcal_100g": 535,
+        "fat_100g": 39,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "en:Green Dot, Rainforest Alliance",
+        "labels_tags": [
+          "en:green-dot",
+          "en:rainforest-alliance"
+        ],
+        "last_modified_by": "moon-rabbit",
+        "last_modified_t": 1697562376,
+        "last_updated_t": 1705514977,
+        "nutrition-score-fr_100g": 21,
+        "proteins_100g": 8.9,
+        "quantity": "",
+        "saturated-fat_100g": 22,
+        "sugars_100g": 27,
+        "unique_scans_n": 3
+      },
+      {
+        "brands_tags": [
+          "k-classic"
+        ],
+        "carbohydrates_100g": 42,
+        "categories": "Snacks, Snacks sucrés, Cacao et dérivés, Chocolats, Chocolats aux noisettes",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:chocolates-with-hazelnuts"
+        ],
+        "code": "4063367211027",
+        "countries": "en:fr",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 588,
+        "fat_100g": 42,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "en:fairtrade-international",
+        "labels_tags": [
+          "en:fair-trade",
+          "en:fairtrade-international"
+        ],
+        "last_modified_by": "kiliweb",
+        "last_modified_t": 1702906542,
+        "last_updated_t": 1705648294,
+        "nutrition-score-fr_100g": 21,
+        "product_name": "HASELNUSS",
+        "proteins_100g": 9.4,
+        "quantity": "100 g",
+        "saturated-fat_100g": 16,
+        "sugars_100g": 40,
+        "unique_scans_n": 2
+      },
+      {
+        "brands_tags": [
+          "laica"
+        ],
+        "categories": "Chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates"
+        ],
+        "code": "8008743047483",
+        "countries": "en:france",
+        "countries_tags": [
+          "en:france"
+        ],
+        "creator": "kiliweb",
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Made in Italy",
+        "labels_tags": [
+          "en:made-in-italy"
+        ],
+        "last_modified_by": "telperion87",
+        "last_modified_t": 1704564593,
+        "last_updated_t": 1704564593
+      },
+      {
+        "brands_tags": [
+          "ferrero"
+        ],
+        "carbohydrates_100g": 56.5,
+        "categories": "Snacks,Sweet snacks,Cocoa and its products,Confectioneries,Festive foods,Chocolate candies,Chocolates,Chocolate molds,Easter food,Chocolate eggs,Easter eggs,Hollow chocolate eggs,Œufs en chocolat",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:confectioneries",
+          "en:festive-foods",
+          "en:chocolate-candies",
+          "en:chocolates",
+          "en:chocolate-molds",
+          "en:easter-food",
+          "en:chocolate-eggs",
+          "en:easter-eggs",
+          "en:hollow-chocolate-eggs",
+          "en:oeufs-en-chocolat"
+        ],
+        "code": "80310891",
+        "countries": "France,Germany,United Arab Emirates",
+        "countries_tags": [
+          "en:france",
+          "en:germany",
+          "en:united-arab-emirates"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "energy-kcal_100g": 550,
+        "fat_100g": 32,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Verified",
+        "labels_tags": [
+          "en:verified"
+        ],
+        "last_modified_by": "professordoc",
+        "last_modified_t": 1707032098,
+        "last_updated_t": 1707032098,
+        "nutrition-score-fr_100g": 27,
+        "product_name": "",
+        "proteins_100g": 8.2,
+        "quantity": "20 g",
+        "saturated-fat_100g": 15.4,
+        "sugars_100g": 51,
+        "unique_scans_n": 117
+      },
+      {
+        "brands_tags": [
+          "nestle"
+        ],
+        "carbohydrates_100g": 74.1,
+        "categories": "Snacks,Sweet snacks,Cocoa and its products,Chocolates,Dark chocolates,Filled chocolates,Filled dark chocolates,десерт",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:dark-chocolates",
+          "en:filled-chocolates",
+          "en:filled-dark-chocolates",
+          "en:десерт"
+        ],
+        "code": "7613034944849",
+        "countries": "France,Poland,Portugal,Spain",
+        "countries_tags": [
+          "en:france",
+          "en:poland",
+          "en:portugal",
+          "en:spain"
+        ],
+        "creator": "kiliweb",
+        "ecoscore_score": 29,
+        "energy-kcal_100g": 428,
+        "fat_100g": 12.9,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "en:green-dot",
+        "labels_tags": [
+          "en:green-dot"
+        ],
+        "last_modified_by": "boterman76",
+        "last_modified_t": 1705162030,
+        "last_updated_t": 1705606261,
+        "nutrition-score-fr_100g": 20,
+        "product_name": "",
+        "proteins_100g": 2.3,
+        "quantity": "200 g",
+        "saturated-fat_100g": 7.4,
+        "sugars_100g": 64.4,
+        "unique_scans_n": 16
+      },
+      {
+        "brands_tags": [
+          "fazer-blueberry-truffle-in-milk-chocolate"
+        ],
+        "carbohydrates_100g": 53,
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Confectioneries, Chocolate candies, Bonbons, en:chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:confectioneries",
+          "en:chocolate-candies",
+          "en:bonbons",
+          "en:chocolates"
+        ],
+        "code": "6416453071148",
+        "countries": "Finland,France",
+        "countries_tags": [
+          "en:finland",
+          "en:france"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 547,
+        "fat_100g": 33,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "",
+        "labels_tags": [],
+        "last_modified_by": "refueling2134",
+        "last_modified_t": 1706210127,
+        "last_updated_t": 1706210127,
+        "nutrition-score-fr_100g": 27,
+        "product_name": "",
+        "proteins_100g": 8.2,
+        "quantity": "270g",
+        "saturated-fat_100g": 19,
+        "sugars_100g": 52,
+        "unique_scans_n": 3
+      }
+    ],
+    "skip": 0
+  }

@@ -1,9 +1,4 @@
-{
-    "count": 10995,
-    "page": 1,
-    "page_count": 24,
-    "page_size": 24,
-    "products": [
+[
       {
         "brands_tags": [
           "milka",
@@ -53,10 +48,6 @@
         "last_modified_t": 1706971733,
         "last_updated_t": 1706971733,
         "nutrition-score-fr_100g": 25,
-        "origins": "No especificado",
-        "origins_tags": [
-          "en:unspecified"
-        ],
         "proteins_100g": 6.5,
         "quantity": "100g",
         "saturated-fat_100g": 19,
@@ -100,8 +91,6 @@
         "last_modified_t": 1706341795,
         "last_updated_t": 1706341795,
         "nutrition-score-fr_100g": 25,
-        "origins": "",
-        "origins_tags": [],
         "product_name": "Mon Cherie",
         "proteins_100g": 3,
         "quantity": "189g",
@@ -109,6 +98,4 @@
         "sugars_100g": 48.3,
         "unique_scans_n": 12
       }
-    ],
-    "skip": 0
-  }
+]

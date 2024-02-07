@@ -1,2 +1,134 @@
-root
- |-- code\turl\tcreator\tcreated_t\tcreated_datetime\tlast_modified_t\tlast_modified_datetime\tlast_modified_by\tlast_updated_t\tlast_updated_datetime\tproduct_name\tabbreviated_product_name\tgeneric_name\tquantity\tpackaging\tpackaging_tags\tpackaging_en\tpackaging_text\tbrands\tbrands_tags\tcategories\tcategories_tags\tcategories_en\torigins\torigins_tags\torigins_en\tmanufacturing_places\tmanufacturing_places_tags\tlabels\tlabels_tags\tlabels_en\temb_codes\temb_codes_tags\tfirst_packaging_code_geo\tcities\tcities_tags\tpurchase_places\tstores\tcountries\tcountries_tags\tcountries_en\tingredients_text\tingredients_tags\tingredients_analysis_tags\tallergens\tallergens_en\ttraces\ttraces_tags\ttraces_en\tserving_size\tserving_quantity\tno_nutrition_data\tadditives_n\tadditives\tadditives_tags\tadditives_en\tnutriscore_score\tnutriscore_grade\tnova_group\tpnns_groups_1\tpnns_groups_2\tfood_groups\tfood_groups_tags\tfood_groups_en\tstates\tstates_tags\tstates_en\tbrand_owner\tecoscore_score\tecoscore_grade\tnutrient_levels_tags\tproduct_quantity\towner\tdata_quality_errors_tags\tunique_scans_n\tpopularity_tags\tcompleteness\tlast_image_t\tlast_image_datetime\tmain_category\tmain_category_en\timage_url\timage_small_url\timage_ingredients_url\timage_ingredients_small_url\timage_nutrition_url\timage_nutrition_small_url\tenergy-kj_100g\tenergy-kcal_100g\tenergy_100g\tenergy-from-fat_100g\tfat_100g\tsaturated-fat_100g\tbutyric-acid_100g\tcaproic-acid_100g\tcaprylic-acid_100g\tcapric-acid_100g\tlauric-acid_100g\tmyristic-acid_100g\tpalmitic-acid_100g\tstearic-acid_100g\tarachidic-acid_100g\tbehenic-acid_100g\tlignoceric-acid_100g\tcerotic-acid_100g\tmontanic-acid_100g\tmelissic-acid_100g\tunsaturated-fat_100g\tmonounsaturated-fat_100g\tomega-9-fat_100g\tpolyunsaturated-fat_100g\tomega-3-fat_100g\tomega-6-fat_100g\talpha-linolenic-acid_100g\teicosapentaenoic-acid_100g\tdocosahexaenoic-acid_100g\tlinoleic-acid_100g\tarachidonic-acid_100g\tgamma-linolenic-acid_100g\tdihomo-gamma-linolenic-acid_100g\toleic-acid_100g\telaidic-acid_100g\tgondoic-acid_100g\tmead-acid_100g\terucic-acid_100g\tnervonic-acid_100g\ttrans-fat_100g\tcholesterol_100g\tcarbohydrates_100g\tsugars_100g\tadded-sugars_100g\tsucrose_100g\tglucose_100g\tfructose_100g\tlactose_100g\tmaltose_100g\tmaltodextrins_100g\tstarch_100g\tpolyols_100g\terythritol_100g\tfiber_100g\tsoluble-fiber_100g\tinsoluble-fiber_100g\tproteins_100g\tcasein_100g\tserum-proteins_100g\tnucleotides_100g\tsalt_100g\tadded-salt_100g\tsodium_100g\talcohol_100g\tvitamin-a_100g\tbeta-carotene_100g\tvitamin-d_100g\tvitamin-e_100g\tvitamin-k_100g\tvitamin-c_100g\tvitamin-b1_100g\tvitamin-b2_100g\tvitamin-pp_100g\tvitamin-b6_100g\tvitamin-b9_100g\tfolates_100g\tvitamin-b12_100g\tbiotin_100g\tpantothenic-acid_100g\tsilica_100g\tbicarbonate_100g\tpotassium_100g\tchloride_100g\tcalcium_100g\tphosphorus_100g\tiron_100g\tmagnesium_100g\tzinc_100g\tcopper_100g\tmanganese_100g\tfluoride_100g\tselenium_100g\tchromium_100g\tmolybdenum_100g\tiodine_100g\tcaffeine_100g\ttaurine_100g\tph_100g\tfruits-vegetables-nuts_100g\tfruits-vegetables-nuts-dried_100g\tfruits-vegetables-nuts-estimate_100g\tfruits-vegetables-nuts-estimate-from-ingredients_100g\tcollagen-meat-protein-ratio_100g\tcocoa_100g\tchlorophyl_100g\tcarbon-footprint_100g\tcarbon-footprint-from-meat-or-fish_100g\tnutrition-score-fr_100g\tnutrition-score-uk_100g\tglycemic-index_100g\twater-hardness_100g\tcholine_100g\tphylloquinone_100g\tbeta-glucan_100g\tinositol_100g\tcarnitine_100g\tsulphate_100g\tnitrate_100g\tacidity_100g: string (nullable = true)
+Ok then forget it.
+Now i have 1 dataset filtered cleaned and written by spark (in csv from another 9 gig dataset):
+code	creator	last_modified_t	last_modified_datetime	last_modified_by	last_updated_t	last_updated_datetime	product_name	quantity	brands_tags	categories	categories_tags	categories_en	labels	labels_tags	labels_en	countries	countries_tags	countries_en	food_groups	food_groups_tags	food_groups_en	ecoscore_score	unique_scans_n	main_category	main_category_en	energy-kcal_100g	fat_100g	saturated-fat_100g	carbohydrates_100g	sugars_100g	proteins_100g	nutrition-score-fr_100g
+3009001317114	ysculo	1644563130	2022-02-11T07:05:30Z	packbot	1705597071	2024-01-18T16:57:51Z	Tuiles noisettes caramel	100 g e	reaute-chocolat,reaute	Snacks, Snacks sucrés, Cacao et dérivés, Chocolats, Chocolats noirs, Chocolats au caramel, Chocolats aux noisettes, Chocolats noirs au caramel, Chocolats noirs aux noisettes	en:snacks,en:sweet-snacks,en:cocoa-and-its-products,en:chocolates,en:dark-chocolates,en:caramel-chocolates,en:chocolates-with-hazelnuts,en:dark-chocolate-with-caramel,en:dark-chocolates-with-hazelnuts	Snacks,Sweet snacks,Cocoa and its products,Chocolates,Dark chocolates,Caramel chocolates,Chocolates with hazelnuts,Dark chocolate with caramel,Dark chocolates with hazelnuts	Point Vert, Fabriqué en France	en:green-dot,en:made-in-france	Green Dot,Made in France	France	en:france	France	en:chocolate-products	en:sugary-snacks,en:chocolate-products	Sugary snacks,Chocolate products	20	1	en:dark-chocolates-with-hazelnuts	Dark chocolates with hazelnuts	549	36.7	19.1	43.6	38.8	6.3	24
+
+here is the path from the dataset:
+hadoop@ubuntu:~$ hdfs dfs -ls /user/hadoop/categories/chocolates_1707336841
+Found 63 items
+-rw-r--r--   3 hadoop supergroup          0 2024-02-07 21:14 /user/hadoop/categories/chocolates_1707336841/_SUCCESS
+-rw-r--r--   3 hadoop supergroup        467 2024-02-07 21:14 /user/hadoop/categories/chocolates_1707336841/part-00000-ee6e1655-dc12-4c30-838e-ab8be5aed044-c000.csv
+-rw-r--r--   3 hadoop supergroup       2970 2024-02-07 21:14 /user/hadoop/categories/chocolates_1707336841/part-00002-ee6e1655-dc12-4c30-838e-ab8be5aed044-c000.csv
+-rw-r--r--   3 hadoop supergroup       3257 2024-02-07 21:14 /user/hadoop/categories/chocolates_1707336841/part-00004-ee6e1655-dc12-4c30-838e-ab8be5aed044-c000.csv
+
+
+the folder is named chocolates_1707336841 based on the categorie of the product and timestamp epoch of today when it got cleaned and filtered.
+
+What i  want now is a script ( i dont know if it should be 1 or 2 scripts ) that uses the OFF api to get updated/modified products or new ones if they exist .
+what i imagine is 2 script:
+- fetch the raw data in json format ( response is in json) put it in /user/hadoop/api_off_raw/categories/chocolates.json
+- use spark script to read the chocolates.json to :
+1. check the timestamp of the hadoop@ubuntu:~$ hdfs dfs -ls /user/hadoop/categories/chocolates_1707336841  and filter out any last_modified_t < timestamp from hdfs folder  
+2. Match the format of the csv i showed you before (so change json to csv so that json format matches the csv perfectly) 
+then save the  csv file to /user/hadoop/api_off_cleaned
+
+
+here is a sample of the json output from the api:
+{
+    "count": 10995,
+    "page": 1,
+    "page_count": 24,
+    "page_size": 24,
+    "products": [
+      {
+        "brands_tags": [
+          "milka",
+          "mondelez"
+        ],
+        "carbohydrates_100g": 57,
+        "categories": "Snacks, Zoete snacks, Cacao en afgeleide producten, Chocoladeproducten, Melkchocoladen, en:Milk chocolate bar",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:chocolates",
+          "en:milk-chocolates",
+          "en:milk-chocolate-bar",
+          "en:cacao-en-afgeleide-producten",
+          "en:chocoladeproducten",
+          "en:melkchocoladen",
+          "en:zoete-snacks"
+        ],
+        "code": "3045140105502",
+        "countries": "Austria,República Checa,Francia,Alemania,Hungría,España",
+        "countries_tags": [
+          "en:austria",
+          "en:czech-republic",
+          "en:france",
+          "en:germany",
+          "en:hungary",
+          "en:spain"
+        ],
+        "creator": "openfoodfacts-contributors",
+        "ecoscore_score": 25,
+        "energy-kcal_100g": 539,
+        "fat_100g": 31,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "Cocoa Life, Nutriscore, Nutriscore E, Triman",
+        "labels_tags": [
+          "en:cocoa-life",
+          "en:nutriscore",
+          "en:nutriscore-grade-e",
+          "fr:triman"
+        ],
+        "last_modified_by": "prepperapp",
+        "last_modified_t": 1706971733,
+        "last_updated_t": 1706971733,
+        "nutrition-score-fr_100g": 25,
+        "proteins_100g": 6.5,
+        "quantity": "100g",
+        "saturated-fat_100g": 19,
+        "sugars_100g": 55,
+        "unique_scans_n": 501
+      },
+      {
+        "brands_tags": [
+          "ferrero"
+        ],
+        "carbohydrates_100g": 52.8,
+        "categories": "Snacks, Sweet snacks, Cocoa and its products, Confectioneries, Chocolate candies, Bonbons, Liqueur bonbons, Liquor filled chocolate covered cherries, en:chocolates",
+        "categories_tags": [
+          "en:snacks",
+          "en:sweet-snacks",
+          "en:cocoa-and-its-products",
+          "en:confectioneries",
+          "en:chocolate-candies",
+          "en:bonbons",
+          "en:chocolates",
+          "en:liqueur-bonbons",
+          "en:liquor-filled-chocolate-covered-cherries"
+        ],
+        "code": "4008400115535",
+        "countries": "France,Germany",
+        "countries_tags": [
+          "en:france",
+          "en:germany"
+        ],
+        "creator": "kiliweb",
+        "energy-kcal_100g": 455,
+        "fat_100g": 20.3,
+        "food_groups": "en:chocolate-products",
+        "food_groups_tags": [
+          "en:sugary-snacks",
+          "en:chocolate-products"
+        ],
+        "labels": "",
+        "labels_tags": [],
+        "last_modified_by": "inf",
+        "last_modified_t": 1706341795,
+        "last_updated_t": 1706341795,
+        "nutrition-score-fr_100g": 25,
+        "product_name": "Mon Cherie",
+        "proteins_100g": 3,
+        "quantity": "189g",
+        "saturated-fat_100g": 13.2,
+        "sugars_100g": 48.3,
+        "unique_scans_n": 12
+      }
+    ],
+    "skip": 0
+  }
