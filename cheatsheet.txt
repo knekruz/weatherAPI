@@ -1,0 +1,89 @@
+change keyboard layout:
+sudo localectl set-x11-keymap fr
+sudo reboot
+
+
+update linux:
+sudo apt-get update
+
+check versions:
+hadoop version
+spark-shell --version
+airflow version
+pyspark
+python --version
+
+
+if not good version uninstall and reinstall: hadoop 3.3.6 airflow 2.8.0 pyspark 3.3.4 python 3.10.12
+Optional change python version
+For a user-installed Python, if you used make install, you can usually run make uninstall from the source directory.
+wget https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz
+tar xzf Python-3.10.12.tgz
+cd Python-3.10.12
+./configure --enable-optimizations
+make
+sudo make altinstall
+
+pip uninstall apache-airflow
+pip install apache-airflow==2.8.0
+pip install Flask-Session==0.5.0 
+find ~ -name "*airflow*"
+rm -rf ~/airflow
+
+pip uninstall pyspark
+pip install pyspark==3.3.4
+
+sudo rm -rf /usr/local/hadoop
+wget https://archive.apache.org/dist/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
+tar -xzvf hadoop-3.3.6.tar.gz
+sudo mv hadoop-3.3.6 /usr/local/
+
+sudo rm -rf /usr/local/spark
+wget https://archive.apache.org/dist/spark/spark-3.3.4/spark-3.3.4-bin-hadoop3.tgz
+tar -xzvf spark-3.3.4-bin-hadoop3.tgz
+sudo mv spark-3.3.4-bin-hadoop3 /usr/local/spark
+
+
+
+Important -> export path for hadoop:
+nano ~/.bashrc
+export PATH=$PATH:/home/hadoop/.local/bin
+source ~/.bashrc
+
+
+Setup airflow for the project:
+create this folder: /home/hadoop/Desktop/ECBD/dags
+then: 
+
+pip install Flask-Session==0.5.0 
+airflow db init
+check airflow.cfg to correct dags folder
+
+airflow users create \
+  --username admin \
+  --firstname Kayu \
+  --lastname Lowy \
+  --role Admin \
+  --email test@gmail.com
+
+pass:123456
+
+airflow start:
+airflow webserver
+airflow scheduler
+
+hadoop start:
+start-dfs.sh
+start-yarn.sh
+
+stop-dfs.sh
+stop-yarn.sh
+
+delete from hdfs:
+hadoop fs -rm -r /user/hadoop/weather/raw
+hadoop fs -rm /user/hadoop/data/example.txt
+
+
+hdfs_base_path = "hdfs://localhost:9000"  # HDFS base path
+
+
