@@ -1,0 +1,31 @@
+{
+    "countries": [
+      {
+        "name": "USA",
+        "code": "US",
+        "cities": ["Washington"]
+      },
+      {
+        "name": "UK",
+        "code": "GB",
+        "cities": ["Glasgow", "Liverpool"]
+      },
+      {
+        "name": "France",
+        "code": "FR",
+        "cities": ["Nice","Limoges"]
+      },
+      {
+        "name": "Italy",
+        "code": "IT",
+        "cities": ["Turin", "Palermo"]
+      },
+      {
+        "name": "Spain",
+        "code": "ES",
+        "cities": ["Seville", "Zaragoza"]
+      }
+    ]
+  }
+  
+  
