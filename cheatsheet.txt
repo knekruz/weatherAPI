@@ -86,4 +86,7 @@ hadoop fs -rm /user/hadoop/data/example.txt
 
 hdfs_base_path = "hdfs://localhost:9000"  # HDFS base path
 
+1. L’application utilise aussi des opérations de grouping ou de window functions
+2. L’application utilise une requête SQL pour obtenir un résultat OR L’application utilise une user-defined function ou une expression en SQL
+
 
