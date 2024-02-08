@@ -50,11 +50,9 @@
           "fr:triman"
         ],
         "last_modified_by": "prepperapp",
-        "last_modified_t": 1706971733,
         "last_updated_t": 1706971733,
         "nutrition-score-fr_100g": 25,
         "proteins_100g": 6.5,
-        "quantity": "100g",
         "saturated-fat_100g": 19,
         "sugars_100g": 55,
         "unique_scans_n": 501
@@ -93,12 +91,9 @@
         "labels": "",
         "labels_tags": [],
         "last_modified_by": "inf",
-        "last_modified_t": 1706341795,
         "last_updated_t": 1706341795,
         "nutrition-score-fr_100g": 25,
-        "product_name": "Mon Cherie",
         "proteins_100g": 3,
-        "quantity": "189g",
         "saturated-fat_100g": 13.2,
         "sugars_100g": 48.3,
         "unique_scans_n": 12
@@ -129,9 +124,7 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "segundo",
-        "last_modified_t": 1696417183,
         "last_updated_t": 1705649106,
-        "quantity": "250 g",
         "unique_scans_n": 2
       },
       {
@@ -159,9 +152,7 @@
         "labels": "",
         "labels_tags": [],
         "last_modified_by": "fix-serving-size-bot",
-        "last_modified_t": 1684235025,
-        "last_updated_t": 1684235025,
-        "quantity": "42,5 g"
+        "last_updated_t": 1684235025
       },
       {
         "brands_tags": [
@@ -191,12 +182,9 @@
         "labels": "",
         "labels_tags": [],
         "last_modified_by": "inf",
-        "last_modified_t": 1705319835,
         "last_updated_t": 1705619375,
         "nutrition-score-fr_100g": 28,
-        "product_name": "Kinder",
         "proteins_100g": 8.7,
-        "quantity": "50 g",
         "saturated-fat_100g": 22.6,
         "sugars_100g": 53.3,
         "unique_scans_n": 2
@@ -221,7 +209,6 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "quentinbrd",
-        "last_modified_t": 1686453783,
         "last_updated_t": 1705648708,
         "unique_scans_n": 1
       },
@@ -252,10 +239,8 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "prepperapp",
-        "last_modified_t": 1706458966,
         "last_updated_t": 1706458966,
         "nutrition-score-fr_100g": 17,
-        "product_name": "Chocolat Luker Tradicional",
         "proteins_100g": 12,
         "saturated-fat_100g": 32,
         "sugars_100g": 0,
@@ -299,7 +284,6 @@
           "en:rainforest-alliance"
         ],
         "last_modified_by": "nnb",
-        "last_modified_t": 1706897958,
         "last_updated_t": 1706897958,
         "nutrition-score-fr_100g": 23,
         "proteins_100g": 5,
@@ -334,11 +318,9 @@
           "en:made-in-belgium"
         ],
         "last_modified_by": "kiliweb",
-        "last_modified_t": 1700403492,
         "last_updated_t": 1705650857,
         "nutrition-score-fr_100g": 35,
         "proteins_100g": 3.5,
-        "quantity": "200 g",
         "saturated-fat_100g": 38,
         "sugars_100g": 40,
         "unique_scans_n": 1
@@ -374,7 +356,6 @@
           "fr:ab-agriculture-biologique"
         ],
         "last_modified_by": "spotter",
-        "last_modified_t": 1699261237,
         "last_updated_t": 1705650859
       },
       {
@@ -408,9 +389,7 @@
           "en:utz-certified-cocoa"
         ],
         "last_modified_by": "hungergames",
-        "last_modified_t": 1681452164,
-        "last_updated_t": 1681452164,
-        "quantity": "100 g"
+        "last_updated_t": 1681452164
       },
       {
         "brands_tags": [
@@ -439,12 +418,9 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "inf",
-        "last_modified_t": 1703747618,
         "last_updated_t": 1703747618,
         "nutrition-score-fr_100g": 27,
-        "product_name": "Finest belgian chocolate",
         "proteins_100g": 6,
-        "quantity": "400 g",
         "saturated-fat_100g": 22,
         "sugars_100g": 55
       },
@@ -471,7 +447,6 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "telperion87",
-        "last_modified_t": 1673010999,
         "last_updated_t": 1705640430
       },
       {
@@ -494,7 +469,6 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "smoothie-app",
-        "last_modified_t": 1688710492,
         "last_updated_t": 1705649102,
         "unique_scans_n": 1
       },
@@ -528,11 +502,9 @@
           "fr:cocos-life"
         ],
         "last_modified_by": "packbot",
-        "last_modified_t": 1644543363,
         "last_updated_t": 1644543363,
         "nutrition-score-fr_100g": 18,
         "proteins_100g": 7,
-        "quantity": "130g",
         "saturated-fat_100g": 29,
         "sugars_100g": 28
       },
@@ -565,11 +537,9 @@
           "en:pure-cocoa-butter"
         ],
         "last_modified_by": "jim",
-        "last_modified_t": 1706582309,
         "last_updated_t": 1706582309,
         "nutrition-score-fr_100g": 25,
         "proteins_100g": 2.8,
-        "quantity": "120 g",
         "saturated-fat_100g": 13,
         "sugars_100g": 50
       },
@@ -593,7 +563,6 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "quentinbrd",
-        "last_modified_t": 1693208527,
         "last_updated_t": 1705649702,
         "unique_scans_n": 1
       },
@@ -622,7 +591,6 @@
           "en:chocolate-products"
         ],
         "last_modified_by": "chevalstar",
-        "last_modified_t": 1692879540,
         "last_updated_t": 1692879540,
         "unique_scans_n": 1
       },
@@ -657,11 +625,9 @@
           "en:rainforest-alliance"
         ],
         "last_modified_by": "moon-rabbit",
-        "last_modified_t": 1697562376,
         "last_updated_t": 1705514977,
         "nutrition-score-fr_100g": 21,
         "proteins_100g": 8.9,
-        "quantity": "",
         "saturated-fat_100g": 22,
         "sugars_100g": 27,
         "unique_scans_n": 3
@@ -698,12 +664,9 @@
           "en:fairtrade-international"
         ],
         "last_modified_by": "kiliweb",
-        "last_modified_t": 1702906542,
         "last_updated_t": 1705648294,
         "nutrition-score-fr_100g": 21,
-        "product_name": "HASELNUSS",
         "proteins_100g": 9.4,
-        "quantity": "100 g",
         "saturated-fat_100g": 16,
         "sugars_100g": 40,
         "unique_scans_n": 2
@@ -735,7 +698,6 @@
           "en:made-in-italy"
         ],
         "last_modified_by": "telperion87",
-        "last_modified_t": 1704564593,
         "last_updated_t": 1704564593
       },
       {
@@ -779,12 +741,9 @@
           "en:verified"
         ],
         "last_modified_by": "professordoc",
-        "last_modified_t": 1707032098,
         "last_updated_t": 1707032098,
         "nutrition-score-fr_100g": 27,
-        "product_name": "",
         "proteins_100g": 8.2,
-        "quantity": "20 g",
         "saturated-fat_100g": 15.4,
         "sugars_100g": 51,
         "unique_scans_n": 117
@@ -827,12 +786,9 @@
           "en:green-dot"
         ],
         "last_modified_by": "boterman76",
-        "last_modified_t": 1705162030,
         "last_updated_t": 1705606261,
         "nutrition-score-fr_100g": 20,
-        "product_name": "",
         "proteins_100g": 2.3,
-        "quantity": "200 g",
         "saturated-fat_100g": 7.4,
         "sugars_100g": 64.4,
         "unique_scans_n": 16
@@ -869,12 +825,9 @@
         "labels": "",
         "labels_tags": [],
         "last_modified_by": "refueling2134",
-        "last_modified_t": 1706210127,
         "last_updated_t": 1706210127,
         "nutrition-score-fr_100g": 27,
-        "product_name": "",
         "proteins_100g": 8.2,
-        "quantity": "270g",
         "saturated-fat_100g": 19,
         "sugars_100g": 52,
         "unique_scans_n": 3

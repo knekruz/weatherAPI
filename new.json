@@ -1,5 +1,5 @@
 [
-      {
+    {
         "brands_tags": [
           "milka",
           "mondelez"
@@ -45,11 +45,9 @@
           "fr:triman"
         ],
         "last_modified_by": "prepperapp",
-        "last_modified_t": 1706971733,
         "last_updated_t": 1706971733,
         "nutrition-score-fr_100g": 25,
         "proteins_100g": 6.5,
-        "quantity": "100g",
         "saturated-fat_100g": 19,
         "sugars_100g": 55,
         "unique_scans_n": 501
@@ -88,12 +86,9 @@
         "labels": "",
         "labels_tags": [],
         "last_modified_by": "inf",
-        "last_modified_t": 1706341795,
         "last_updated_t": 1706341795,
         "nutrition-score-fr_100g": 25,
-        "product_name": "Mon Cherie",
         "proteins_100g": 3,
-        "quantity": "189g",
         "saturated-fat_100g": 13.2,
         "sugars_100g": 48.3,
         "unique_scans_n": 12
