@@ -5,16 +5,8 @@ path data:
 hadoop fs -put /home/hadoop/Desktop/ECBD/data/off_raw/en.openfoodfacts.org.products.csv /user/hadoop/off_row
 
 
-hadoop fs -cat /user/hadoop/api_off_cleaned/chocolates/part-00000-dbbfba6b-f870-4020-a8fa-a2abb7512a87-c000.csv | head -n 30 > /home/hadoop/Desktop/30_api_rows_chocolates.csv
+hadoop fs -cat /user/hadoop/api_off_cleaned/chocolates/part-00000-0e085e6b-9be6-461a-ab21-2f4ef697f8a0-c000.csv | head -n 30 > /home/hadoop/Desktop/30_api_rows_chocolates.csv
 
-
-
-curl -X GET "https://world.openfoodfacts.net/api/v2/search?categories_tags=chocolates&countries_tags_en=france&fields=code%2Ccreator%2Clast_modified_t%2Clast_modified_datetime%2Clast_modified_by%2Clast_updated_t%2Clast_updated_datetime%2Cproduct_name%2Cquantity%2Cbrands_tags%2Ccategories%2Ccategories_tags%2Ccategories_en%2Clabels%2Clabels_tags%2Clabels_en%2Ccountries%2Ccountries_tags%2Ccountries_en%2Cfood_groups%2Cfood_groups_tags%2Cfood_groups_en%2Cecoscore_score%2Cunique_scans_n%2Cmain_category%2Cmain_category_en%2Cenergy-kcal_100g%2Cfat_100g%2Csaturated-fat_100g%2Ccarbohydrates_100g%2Csugars_100g%2Cproteins_100g%2Cnutrition-score-fr_100g&sort_by=product_name&last_modified_t>1707336841" \
- -H "accept: application/json"
-
-
- curl -X GET "https://world.openfoodfacts.net/api/v2/search?categories_tags=chocolates&countries_tags_en=france&fields=code%2Ccreator%2Clast_modified_t%2Clast_modified_datetime%2Clast_modified_by%2Clast_updated_t%2Clast_updated_datetime%2Cproduct_name%2Cquantity%2Cbrands_tags%2Ccategories%2Ccategories_tags%2Ccategories_en%2Clabels%2Clabels_tags%2Clabels_en%2Ccountries%2Ccountries_tags%2Ccountries_en%2Cfood_groups%2Cfood_groups_tags%2Cfood_groups_en%2Cecoscore_score%2Cunique_scans_n%2Cmain_category%2Cmain_category_en%2Cenergy-kcal_100g%2Cfat_100g%2Csaturated-fat_100g%2Ccarbohydrates_100g%2Csugars_100g%2Cproteins_100g%2Cnutrition-score-fr_100g&sort_by=product_name&last_modified_t=1707336841" \
--H "accept: application/json"
 
 
 /user/hadoop/api_off_raw/categories

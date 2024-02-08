@@ -10,7 +10,7 @@ epoch_timestamp = int(time.time())
 
 # File path in HDFS and save path with timestamp
 file_path = "hdfs://localhost:9000/user/hadoop/off_row/en.openfoodfacts.org.products.csv"
-save_path_with_epoch_timestamp = f"hdfs://localhost:9000/user/hadoop/categories/chocolates_{epoch_timestamp}"
+save_path_with_epoch_timestamp = f"hdfs://localhost:9000/user/hadoop/categories/chocolates_1672923569"
 
 # Read the CSV file
 df = spark.read.csv(file_path, header=True, sep="\t")
