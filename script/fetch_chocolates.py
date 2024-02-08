@@ -32,7 +32,7 @@ api_endpoint = "https://world.openfoodfacts.net/api/v2/search"
 params = {
     'categories_tags': 'chocolates',
     'countries_tags': 'en:france',
-    'fields': 'code,creator,last_modified_t,last_modified_datetime,last_modified_by,last_updated_t,last_updated_datetime,product_name,quantity,brands_tags,categories,categories_tags,categories_en,labels,labels_tags,labels_en,countries,countries_tags,countries_en,food_groups,food_groups_tags,food_groups_en,ecoscore_score,unique_scans_n,main_category,main_category_en,energy-kcal_100g,fat_100g,saturated-fat_100g,carbohydrates_100g,sugars_100g,proteins_100g,nutrition-score-fr_100g'
+    'fields': 'code,creator,last_modified_by,last_updated_t,last_updated_datetime,product_name,quantity,brands_tags,categories,categories_tags,labels,labels_tags,countries,countries_tags,food_groups,food_groups_tags,ecoscore_score,unique_scans_n,main_category,energy-kcal_100g,fat_100g,saturated-fat_100g,carbohydrates_100g,sugars_100g,proteins_100g,nutrition-score-fr_100g'
 }
 
 # Fetch all products

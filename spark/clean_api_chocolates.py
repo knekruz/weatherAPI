@@ -1,62 +1,71 @@
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, lit
-import pyspark.sql.functions as F
+from pyspark.sql import SparkSession, functions as F
+import subprocess
+import re
 
 # Initialize Spark Session
-spark = SparkSession.builder.appName("OFF Data Processing").getOrCreate()
+spark = SparkSession.builder.appName("JSON to CSV Transformation").getOrCreate()
 
 # HDFS base path
 hdfs_base_path = "hdfs://localhost:9000"
 
-# Load JSON data
-json_path = f"{hdfs_base_path}/user/hadoop/api_off_raw/categories/chocolates.json"
-df = spark.read.json(json_path)
+# Function to dynamically retrieve the epoch timestamp from the folder name using HDFS command
+def get_latest_chocolates_timestamp(hdfs_path):
+    # Execute HDFS command to list directories
+    cmd = f"hdfs dfs -ls {hdfs_path}"
+    result = subprocess.run(cmd.split(), capture_output=True, text=True)
+    # Use regular expression to find the folder that matches the pattern 'chocolates_'
+    match = re.findall(r'chocolates_(\d+)', result.stdout)
+    # Return the latest timestamp if multiple matches found
+    if match:
+        return max(int(timestamp) for timestamp in match)
+    else:
+        raise ValueError("No matching 'chocolates_' directory found")
 
-# Extract timestamp from HDFS folder name
-folder_timestamp = 1672923569  # Example timestamp, replace with dynamic extraction if necessary
+# Retrieve the epoch timestamp dynamically
+folder_path = "/user/hadoop/categories"
+epoch_timestamp = get_latest_chocolates_timestamp(folder_path)
 
-# Filter records based on last_updated_t
-filtered_df = df.filter(col("last_updated_t") > lit(folder_timestamp))
+# Path to the JSON file in HDFS
+json_file_path = f"{hdfs_base_path}/user/hadoop/api_off_raw/categories/chocolates.json"
 
-# Transform JSON to match CSV schema
+# Read the JSON file
+df = spark.read.json(json_file_path)
+
+# Filter rows where last_updated_t is greater than or equal to the folder timestamp
+filtered_df = df.filter(F.col("last_updated_t") >= epoch_timestamp)
+
+# Select and transform columns as per the CSV format, including formatting the datetime
 transformed_df = filtered_df.select(
-    col("code"),
-    col("creator"),
-    col("last_modified_t"),
-    col("last_modified_datetime"),
-    col("last_modified_by"),
-    col("last_updated_t"),
-    col("last_updated_datetime"),
-    col("product_name"),
-    col("quantity"),
-    F.concat_ws(",", col("brands_tags")).alias("brands_tags"),
-    col("categories"),
-    F.concat_ws(",", col("categories_tags")).alias("categories_tags"),
-    F.concat_ws(",", col("categories_en")).alias("categories_en"),
-    F.concat_ws(",", col("labels")).alias("labels"),
-    F.concat_ws(",", col("labels_tags")).alias("labels_tags"),
-    F.concat_ws(",", col("labels_en")).alias("labels_en"),
-    F.concat_ws(",", col("countries")).alias("countries"),
-    F.concat_ws(",", col("countries_tags")).alias("countries_tags"),
-    F.concat_ws(",", col("countries_en")).alias("countries_en"),
-    F.concat_ws(",", col("food_groups")).alias("food_groups"),
-    F.concat_ws(",", col("food_groups_tags")).alias("food_groups_tags"),
-    F.concat_ws(",", col("food_groups_en")).alias("food_groups_en"),
-    col("ecoscore_score"),
-    col("unique_scans_n"),
-    col("main_category"),
-    col("main_category_en"),
-    col("energy-kcal_100g"),
-    col("fat_100g"),
-    col("saturated-fat_100g"),
-    col("carbohydrates_100g"),
-    col("sugars_100g"),
-    col("proteins_100g"),
-    col("nutrition-score-fr_100g")
+    F.col("code"),
+    F.col("creator"),
+    F.col("last_modified_by"),
+    F.col("last_updated_t"),
+    F.from_unixtime("last_updated_t", "yyyy-MM-dd'T'HH:mm:ss'Z'").alias("last_updated_datetime"),
+    F.col("product_name"),
+    F.col("quantity"),
+    F.concat_ws(",", F.col("brands_tags")).alias("brands_tags"),
+    F.col("categories"),
+    F.concat_ws(",", F.col("categories_tags")).alias("categories_tags"),
+    F.col("labels"),
+    F.concat_ws(",", F.col("labels_tags")).alias("labels_tags"),
+    F.col("countries"),
+    F.concat_ws(",", F.col("countries_tags")).alias("countries_tags"),
+    F.col("food_groups"),
+    F.concat_ws(",", F.col("food_groups_tags")).alias("food_groups_tags"),
+    F.col("ecoscore_score"),
+    F.col("unique_scans_n"),
+    F.col("energy-kcal_100g"),
+    F.col("fat_100g"),
+    F.col("saturated-fat_100g"),
+    F.col("carbohydrates_100g"),
+    F.col("sugars_100g"),
+    F.col("proteins_100g"),
+    F.col("nutrition-score-fr_100g")
 )
 
-# Save the transformed DataFrame to HDFS in CSV format
-csv_path = f"{hdfs_base_path}/user/hadoop/api_off_cleaned/chocolates.csv"
-transformed_df.write.csv(csv_path, mode="overwrite", header=True)
+# Save the transformed DataFrame to CSV in HDFS
+csv_file_path = f"{hdfs_base_path}/user/hadoop/api_off_cleaned/chocolates"
+transformed_df.write.option("header", True).mode("overwrite").csv(csv_file_path)
 
-print("Data transformation and saving to HDFS completed.")
+# Stop the Spark session
+spark.stop()
